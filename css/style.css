@@ -1,0 +1,64 @@
+body{
+    font-family: 'Noto Sans Mono', monospace;/*select a priority list from one or more named fonts,(monospcae)all glyphs have the same fixed width*/
+}
+
+ main{/*editing items in main*/
+     margin-top: 50px;/*Sets the amount of indentation from the top edge of the element*/
+ }      
+.mainlogo{/*editing image in class in mainlogo*/
+    width: 50px;
+    height: 50px;
+    
+}
+nav{/*editing in navigation*/
+    margin: auto;/*sets the amount of indentation from each edge of the element*/
+    width: 800px;
+    height: 50px;
+    text-align: center;/*defines the horizontal alignment of the text within the element*/
+}
+.biblia{/*creating table and creating limitation in website's space*/
+    width: 1600px;
+    display: flex;/*a multi-purpose property that defines how an element should be displayed in a document,(flex)determining the ability of a flexible element to stretch or contract to fill the available free space*/
+    margin: auto;/*sets the amount of indentation from each edge of the element*/
+    justify-content: space-between;/*the browser distributes the space between and around the content elements along the main axis*/
+    height: auto;
+    margin-top: 50px;/*Sets the amount of indentation from the top edge of the element*/
+}
+.kniga1{/*creating limits for book's items*/
+    color: white;   
+    text-align: center;/*defines the horizontal alignment of the text within the element*//*defines the horizontal alignment of the text within the element*/
+    width: 700px;
+    height: auto;
+
+}
+.preview{/*creating limit for book's icon*/
+    width: 500px; 
+}
+.preview2{/*creating limit for book's icon*/
+    width: 300px; 
+}
+.preview3{/*creating limit for book's icon*/
+    width: 300px; 
+}
+.kniga2{
+    color: white;
+    text-align: center;/*defines the horizontal alignment of the text within the element*/
+    width: 700px;
+    height: auto;
+}
+
+.trans{/*adding special thing because i had problem with space between the top of the icon of the book and text*/
+    opacity: 0;/*changing the opacity of the text*/
+}
+
+.button{
+  background-color: #555555; /* Green */
+  border-radius: 12px;/*sets the radius of rounding the corners of the frame*/
+  border: none;/*the universal property allows you to simultaneously set the thickness, style and color of the border around the element*/
+  color: white;/*changing color*/
+  padding: 15px 32px;/*sets the value of the fields around the element content*/
+  text-align: center;/*defines the horizontal alignment of the text within the element*/
+  text-decoration: none;/*adds text formatting in the form of underlining, strikethrough, lines above the text and blinking*/
+  display: inline-block;/*a multi-purpose property that defines how an element should be displayed in a document,(flex)determining the ability of a flexible element to stretch or contract to fill the available free space*/
+  font-size: 16px;/*defines the font size of the element*/
+}

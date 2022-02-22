@@ -1,0 +1,60 @@
+main{/*editing in main */
+    text-align: center;/*(center)Center align text, (text-align)specifies the horizontal alignment of text within an element*/
+}
+h1{/*editing in heading */
+    color: white;/* changing the text colour */
+}
+a{/*editing text in navigation bar*/
+    color: white;/*changing text*/
+}
+h2{/*editing in heading*/
+    color: white;/*changing color*/
+}
+h3{/*editing in heading*/
+    color: white;/*changing colour*/
+}
+h4{/*editing in heading*/
+    color: white;/*changing color*/
+}
+.example{/*editing size and other thing in class expample*/
+    width: 1600px;/*changing width */
+    display: flex;/* which defines how the element should be displayed in the document */
+    margin: auto;/*Sets the amount of padding from each edge of an element*/
+    justify-content: space-between;/*How the browser allocates space between and around content items, (space between) doing space between items*/
+}
+.manga{/*editing items in manga*/ 
+    height: 650px;/*editing height size*/
+    width: 300px;/*editing width size*/
+    margin-top: 0;/*Sets the amount of padding from the top edge of an element*/
+    border-radius: 10px;/*Sets the radius of the rounding of the corners of the frame*/
+}
+
+.mangaimg{/*editing icon of manga*/
+    width: auto;
+    height: 200px;
+}
+img:hover{/*Defines the style of an element when the mouse cursor is hovering over it*/
+    border:1px solid aqua;/*changing color and size of line*/
+}
+.business{/*editing items in business*/ 
+    height: 300px;
+    
+    height: 650px;
+    width: 300px;
+   
+}
+.businessimg{/*editing icon of nusiness*/
+    width: 300px;
+    
+}
+.literature{/*editing items in literature*/ 
+    height: 650px;
+    width: 300px;
+}
+.literatureimg{/*editing icon of literature*/
+    height: 200px;
+}
+.nav{
+    background-color:   #000000;/*(black)*/
+    
+}
